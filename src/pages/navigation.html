@@ -1,0 +1,87 @@
+<!-- vertical medium-horizontal - для телефонов делает горизонтальное меню вертикальным -->
+<ul class=" vertical medium-horizontal menu">
+	<li><a href="#">Item-1</a></li>
+	<li><a href="#">Item-2</a></li>
+	<li><a href="#">Item-3</a></li>
+	<li><a href="#">Item-4</a></li>
+	<li><a href="#">Item-5</a></li>
+	<li><a href="#">Item-6</a></li>
+</ul>
+<br>
+<br>
+
+<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+	<button type="button" class="menu-icon" data-toggle></button>
+	<div class="title-bar-title title-bar-right">Заголовок меню</div>
+</div>
+<div class="top-bar" id="example-menu">
+	<div class="top-bar-left">
+		<ul class="menu">
+			<!--menu-text - для текста или логотипа -->
+			<li class="menu-text"><a href="#">Logo</a></li>
+			<li><a href="#">Item-1</a></li>
+			<li><a href="#">Item-2</a></li>
+			<li><a href="#">Item-3</a></li>
+			<li><a href="#">Item-4</a></li>
+			<li><a href="#">Item-5</a></li>
+			<li><a href="#">Item-6</a></li>
+		</ul>
+	</div>
+	<div class="top-bar-right">
+		<ul class="menu">
+			<li><input type="search" placeholder="Search"></li>
+			<li><button type="button" class="button">Search</button></li>
+		</ul>
+	</div>
+	
+</div>
+
+<br>
+<br>
+
+<!-- Dropdown menu -->
+
+<div class="row">
+	<ul class="dropdown menu" data-dropdown-menu>
+		<li><a href="#">Item</a></li>
+		<li><a href="#">Item-2</a>
+			<ul class="menu">
+				<li><a href="#">Item-3</a>
+					<ul class="menu">
+						<li><a href="#">Item-3</a></li>
+						<li><a href="#">Item-4</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Item-4</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Item-3</a></li>
+		<li><a href="#">Item-4</a></li>
+	</ul>
+</div>
+
+<br>
+<br>
+
+<!-- Drilldown menu -->
+<div class="row">
+	<div class="large-2 columns">
+		<ul class="vertical menu" data-drilldown>
+			<li><a href="#">Item-1</a>
+				<ul class="vertical menu">
+					<li><a href="#">Item-1</a></li>
+					<li><a href="#">Item-2</a>
+						<ul class="vertical menu">
+							<li><a href="#">Item-1</a></li>
+							<li><a href="#">Item-2</a></li>
+							<li><a href="#">Item-3</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Item-3</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Item-2</a></li>
+			<li><a href="#">Item-3</a></li>
+		</ul>
+	</div>
+</div>
